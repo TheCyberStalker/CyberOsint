@@ -257,7 +257,7 @@ def tgphisher():
         /____/                                   
 {Style.RESET_ALL}           
                     .:EYE OF GOD:.    
-           {Style.BRIGHT}{Fore.YELLOW}Telegram{Style.RESET_ALL}:{Fore.CYAN} t.me/Y0urAdm1n
+           {Style.BRIGHT}{Fore.YELLOW}Telegram{Style.RESET_ALL}:{Fore.CYAN} t.me/cyberstalker_1337
      {Style.BRIGHT}{Fore.YELLOW}GitHub{Style.RESET_ALL}:{Fore.CYAN} github.com/TheCyberStalker/TgPhisher
 
       ''')
